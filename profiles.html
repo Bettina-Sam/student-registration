@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Profile Cards</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="site-header sticky">
+    <nav class="nav">
+      <a class="brand" href="index.html">StudentHub</a>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link active" href="day4.html">Interactive Features</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<main class="container">
+  <section class="card">
+    <h1 class="title">Interactive Profile Cards</h1>
+    <p class="subtitle">Click <b>Add Profile</b> → Enter a Name & Role → A styled card appears with a Remove button.</p>
+    <div class="toolbar">
+      <button id="addProfileBtn" class="btn primary">Add Profile</button>
+    </div>
+    <div id="profiles"></div>
+  </section>
+</main>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
