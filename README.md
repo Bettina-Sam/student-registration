@@ -1,4 +1,4 @@
-# Day 3 – Enhanced Student Registration (Home + Contact)
+# Enhanced Student Registration (Home + Contact)
 
 ## What's new
 - CSS: variables, transitions, keyframe animation, pseudo-elements, sticky header, responsive grid.
