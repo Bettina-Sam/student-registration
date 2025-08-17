@@ -1,4 +1,4 @@
-# Day 4 — DOM + ES6 Modules (Pre-React)
+# DOM + ES6 Modules (Pre-React)
 
 ## Files
 - `day4.html` — Hub with links
