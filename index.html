@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <main class="container">
+    <h1>Student Registration</h1>
+
+    <form id="registrationForm" novalidate>
+      <div class="field">
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" placeholder="e.g., Asha R." aria-required="true"/>
+        <small class="error" id="nameError"></small>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" aria-required="true"/>
+        <small class="error" id="emailError"></small>
+      </div>
+
+      <div class="field">
+        <label for="dept">Department</label>
+        <select id="dept" name="dept" aria-required="true">
+          <option value="">-- Select Department --</option>
+          <option>IT</option>
+          <option>CSE</option>
+          <option>ECE</option>
+          <option>EEE</option>
+          <option>CIVIL</option>
+          <option>MECH</option>
+        </select>
+        <small class="error" id="deptError"></small>
+      </div>
+
+      <div class="field">
+        <label for="year">Year</label>
+        <select id="year" name="year" aria-required="true">
+          <option value="">-- Select Year --</option>
+          <option>I</option>
+          <option>II</option>
+          <option>III</option>
+          <option>IV</option>
+        </select>
+        <small class="error" id="yearError"></small>
+      </div>
+
+      <div class="field">
+        <label for="title">Project Title</label>
+        <input id="title" name="title" type="text" placeholder="e.g., Smart Campus Navigator" aria-required="true"/>
+        <small class="error" id="titleError"></small>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p class="hint">On successful validation, you'll see an alert saying <strong>Registration Successful</strong>.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
