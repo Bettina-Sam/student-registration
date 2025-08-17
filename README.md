@@ -1,25 +1,20 @@
-# Day 2 – Student Registration (Mini Project)
+# Day 3 – Enhanced Student Registration (Home + Contact)
 
-This mini-project contains a simple HTML/CSS/JS form with validation.
+## What's new
+- CSS: variables, transitions, keyframe animation, pseudo-elements, sticky header, responsive grid.
+- JS: functions, arrays, loops, DOM manipulation, event listeners, welcome alert.
+- Button on Home page changes section background and text dynamically.
+- Registration form validation (alert on success).
+- New Contact page with form + inline "Thank you" message on submit.
 
 ## Files
-- `index.html` – Form markup
-- `style.css` – Styling (background, spacing, borders)
-- `script.js` – Client-side validation (all fields required, email format check)
+- `index.html` – Home + Registration
+- `contact.html` – Contact form with success message
+- `style.css` – Theme & animations
+- `script.js` – Interactivity & validation
 
-## How to Run
-Just open `index.html` in your browser.
+## How to run
+Open `index.html` in your browser. Links will navigate between pages.
 
-## GitHub: Quick Steps
-1. Create a repo (e.g., `day2-student-registration`) on GitHub.
-2. Initialize locally and push:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/day2-student-registration.git
-   git push -u origin main
-   ```
-3. Enable GitHub Pages: **Settings → Pages → Source: `main` branch, `/root`**. Save.
-4. Open the live link shown on the Pages screen.
+## GitHub Pages
+Upload these files to your repo root and enable Pages on `main` branch, folder `/ (root)`.

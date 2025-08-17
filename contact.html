@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — StudentHub</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="site-header sticky">
+    <nav class="nav">
+      <a class="brand" href="index.html">StudentHub</a>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card fade-in-up">
+      <h1 class="title deco">Contact Us</h1>
+      <p class="subtitle">Questions or feedback? Send us a message below.</p>
+
+      <form id="contactForm" class="space-top" novalidate>
+        <div class="grid">
+          <div class="field">
+            <label for="cname">Your Name</label>
+            <input id="cname" name="cname" type="text" placeholder="Your name"/>
+            <small class="error" id="cnameError"></small>
+          </div>
+          <div class="field">
+            <label for="cemail">Email</label>
+            <input id="cemail" name="cemail" type="email" placeholder="you@example.com"/>
+            <small class="error" id="cemailError"></small>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="cmessage">Message</label>
+          <textarea id="cmessage" name="cmessage" rows="5" placeholder="Type your message..."></textarea>
+          <small class="error" id="cmessageError"></small>
+        </div>
+
+        <button type="submit" class="btn primary">Send</button>
+      </form>
+
+      <div id="contactThanks" class="thanks hidden">
+        <p>✅ Thank you! Your message has been received.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="yearSpan"></span> StudentHub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
